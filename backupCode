@@ -19,3 +19,16 @@
                 i += 1
             formatted_list = ", ".join(map(str, diceArray))
             await message.channel.send("```" + first_letter + f"d20 -> [" + formatted_list + "]```")
+
+                        elif dice6 == 4:
+                            img_file = discord.File('dice4.PNG')  # Mantém apenas a primeira ocorrência
+                        elif dice6 == 5:
+                            img_file = discord.File('dice5.PNG')  # Mantém apenas a primeira ocorrência
+                        elif dice6 == 6:
+                            img_file = discord.File('dice6.PNG')  # Mantém apenas a primeira ocorrência
+                        elif dice6 == 7:
+                            img_file = discord.File('dice7.PNG')  # Mantém apenas a primeira ocorrência
+                        elif dice6 == 8:
+                            img_file = discord.File('dice8.PNG')  # Mantém apenas a primeira ocorrência
+                        if dice6 == 9:
+                            img_file = discord.File('dice9.PNG')  # Mantém apenas a primeira ocorrência
